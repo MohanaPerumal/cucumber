@@ -1,2 +1,6 @@
 language: java
-mvn test
+
+sudo: false
+
+script:
+  - mvn verify
