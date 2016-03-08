@@ -4,3 +4,8 @@ sudo: false
 
 script:
   - mvn verify
+  - gradle build
+
+jdk:
+  - openjdk7
+  - oraclejdk8
